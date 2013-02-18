@@ -1,7 +1,6 @@
 "use strict";
 var http = require('http');
 var returnResponseTimeout = 1000 * 60 * 15;
-
 var count = 0;
 var returnResponse = function (response) {
     var body = new Buffer(JSON.stringify({messages:[]}));
