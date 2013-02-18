@@ -1,1 +1,6 @@
-This file was created by JetBrains WebStorm 5.0.3 for binding GitHub repository
+comet test
+server.js comet using http module
+server_childProcess.js comet using http module and create multiple child process
+How to test
+1."node server.js" or "node server_childProcess.js" to run server on port 8001
+2."node client.js 127.0.0.1 8001 1000 50" to create 1000 test client with interval 50ms
